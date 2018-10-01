@@ -1,11 +1,13 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const yt = require('ytdl-core');
-
+client.on('ready', () => {
+client.user.setGame(.help | Bot by DzDev99,"http://twitch.tv/S-F%22)
+});
 client.on('ready', () => {
 console.log('Logging into discord..');
 console.log(`
-By Majd
+By DzDev99
 `);
 
 });
@@ -82,10 +84,10 @@ var PREFIX = ".";
 client.on("message", message => {
 
 	                    if (message.content === q1 ) {
-                  message.react('ðŸ”Š')
+                  message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
-      return message.reply(`ÙŠØ±Ø¬Ù‰ Ø£Ù† ØªÙƒÙˆÙ† ÙÙŠ Ù‚Ù†Ø§Ø© ØµÙˆØªÙŠÙ‡ Ø£ÙˆÙ„Ø§!`);
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
     }
     voiceChannel.join()
       .then(connnection => {
@@ -95,10 +97,10 @@ client.on("message", message => {
   }
   
   	                    if (message.content === q2 ) {
-                  message.react('ðŸ”Š')
+                  message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
-      return message.reply(`ÙŠØ±Ø¬Ù‰ Ø£Ù† ØªÙƒÙˆÙ† ÙÙŠ Ù‚Ù†Ø§Ø© ØµÙˆØªÙŠÙ‡ Ø£ÙˆÙ„Ø§!`);
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
     }
     voiceChannel.join()
       .then(connnection => {
@@ -108,10 +110,10 @@ client.on("message", message => {
   }
   
     	                    if (message.content === q3 ) {
-                  message.react('ðŸ”Š')
+                  message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
-      return message.reply(`ÙŠØ±Ø¬Ù‰ Ø£Ù† ØªÙƒÙˆÙ† ÙÙŠ Ù‚Ù†Ø§Ø© ØµÙˆØªÙŠÙ‡ Ø£ÙˆÙ„Ø§!`);
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
     }
     voiceChannel.join()
       .then(connnection => {
@@ -121,10 +123,10 @@ client.on("message", message => {
   }
   
       	                    if (message.content === q4 ) {
-                  message.react('ðŸ”Š')
+                  message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
-      return message.reply(`ÙŠØ±Ø¬Ù‰ Ø£Ù† ØªÙƒÙˆÙ† ÙÙŠ Ù‚Ù†Ø§Ø© ØµÙˆØªÙŠÙ‡ Ø£ÙˆÙ„Ø§!`);
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
     }
     voiceChannel.join()
       .then(connnection => {
@@ -147,20 +149,18 @@ client.on("message", message => {
 
   if(message.content === ".help") {
     message.channel.send(` QuranBot
-:mosque: .quran 1  :   Ø§Ù„Ù‚Ø±Ø§Ù† Ø§Ù„ÙƒØ±ÙŠÙ… ÙƒØ§Ù…Ù„ Ø¨ØµÙˆØª Ø§Ù„Ø´ÙŠØ® Ø¹Ø¨Ø¯Ø§Ù„Ø¨Ø§Ø³Ø· Ø¹Ø¨Ø¯Ø§Ù„ØµÙ…Ø¯ 
+:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   Ø³ÙˆØ±Ø© Ø§Ù„Ø¨Ù‚Ø±Ø© ÙƒØ§Ù…Ù„Ø© - Ø§Ù„Ù‚Ø§Ø±Ø¦ Ø§Ù„Ø­Ø§Ø¬ Ù…ÙŠØ«Ù… Ø§Ù„ØªÙ…Ø§Ø± (QURAN)
+:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
-:mosque: .quran 3  :   Ø§Ù„Ù‚Ø±Ø¢Ù† Ø§Ù„ÙƒØ±ÙŠÙ… ÙƒØ§Ù…Ù„ Ø¨ØµÙˆØª Ø§Ù„Ø´ÙŠØ® Ø¹Ø¨Ø¯ Ø§Ù„Ø±Ø­Ù…Ù† Ø§Ù„Ø³Ø¯ÙŠØ³ ÙˆØ³Ø¹ÙˆØ¯ Ø§Ù„Ø´Ø±ÙŠÙ… 
+:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
 
-:mosque: .quran 4  :   Ø§Ù„Ù‚Ø±Ø¢Ù† Ø§Ù„ÙƒØ±ÙŠÙ… ÙƒØ§Ù…Ù„ Ø¨ØµÙˆØª Ø§Ù„Ø´ÙŠØ® Ø§Ù„Ù…Ø¹ÙŠÙ‚Ù„ÙŠ
+:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
 
-:mosque: .stop     : Ù„Ù€ Ø£ÙŠÙ‚Ø§Ù ØªØ´ØºÙŠÙ„ Ø§Ù„Ø¨ÙˆØª `)
+:mosque: .stop     : لـ أيقاف تشغيل البوت `)
 }
  
 	    
 });
-
-
 
 client.login("NDk2MDYwMDY1MDMyNDM3Nzgw.DpLH5w.T_0NzlDRdJICx3drLLsnsaZh9YA");
