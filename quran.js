@@ -43,13 +43,13 @@ var servers = {};
 
 
 
-var q1 = ".quran 1"
+var q1 = ".quranfullb"
 
-var q2 = ".quran 2"
+var q2 = ".quranbhaitham"
 
-var q3 = ".quran 3"
+var q3 = ".quranfulls"
 
-var q4 = ".quran 4"
+var q4 = ".quranfulllm"
 
 
 
@@ -163,13 +163,13 @@ client.on("message", message => {
 ╱╱╱╱╭━╯┃
 ╱╱╱╱╰━━╯
 
-:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+:mosque: .quranfullb  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
+:mosque: .quranbhaitham  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
-:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
+:mosque: .quranfulls  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
 
-:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+:mosque: .quranfullm  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت `)
 }
