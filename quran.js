@@ -1,9 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const yt = require('ytdl-core');
-client.on('ready', () => {
-client.user.setGame(".help | Bot by DzDev99" ,"http://twitch.tv/S-F%22")
-});
+
 client.on('ready', () => {
 console.log('Logging into discord..');
 console.log(`
