@@ -10,7 +10,7 @@ By DzDev99
 
 });
 
-
+client.user.setGame('.help | By : DzDev99', "https://www.twitch.tv/9ivv");
 
 
 
@@ -182,7 +182,12 @@ client.on("message", message => {
 
 :mosque: .quranfullm  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
 
-:mosque: .stop     : لـ أيقاف تشغيل البوت `)
+:mosque: .stop     : لـ أيقاف تشغيل البوت
+
+:mosque:  By : DzDev99
+
+:mosque: .st     : لـ تغيير حالة البوت
+`)
 }
  
 	    
