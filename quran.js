@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const yt = require('ytdl-core');
 
 client.on('ready', () => {
-bot.user.setGame('.help | .invite | Bot By: DzDev99','https://www.twitch.tv/peery13');
+client.user.setGame('.help | .invite | Bot By: DzDev99','https://www.twitch.tv/peery13');
 console.log('Logging into discord..');
 console.log(`
 By DzDev99
