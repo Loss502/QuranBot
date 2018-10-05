@@ -14,6 +14,17 @@ By DzDev99
 
 
 
+client.on('message', message => {
+    if(message.content.startsWith('.st')) {
+        var arg = message.content.split(' ').slice(1).join(' ');
+        client.user.setGame(arg, "https://www.twitch.tv/9ivv");
+        console.log('Streaming.');
+    }
+});
+
+client.l
+
+
 
 function commandIs(str, msg){
     return msg.content.toLowerCase().startsWith('.' + str);
