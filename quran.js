@@ -10,7 +10,7 @@ By DzDev99
 
 });
 
-client.user.setGame('.help | By : DzDev99', "https://www.twitch.tv/9ivv");
+
 
 
 
