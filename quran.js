@@ -184,13 +184,13 @@ client.on("message", message => {
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت
 
-:mosque:  By : DzDev99
-
 :mosque: .st     : لـ تغيير حالة البوت
+
+                  :mosque:  By : DzDev99
 `)
 }
  
 	    
 });
 
-client.login("process.env.BOT_TOKEN");
+client.login("NDk4MjA1OTYxMDg5OTc0Mjgy.DpqYUQ.4A3xuOcN6HNU7ywg9ESkBVGZAcw");
